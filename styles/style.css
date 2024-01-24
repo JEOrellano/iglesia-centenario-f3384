@@ -1,0 +1,30 @@
+.texto-centrado {
+    text-align: center;
+}
+
+/* CSS para imaganes */
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
