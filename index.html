@@ -3,22 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Inicio</title>
+    <title>Iglesia IEADCR</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="styles/style.css" />
   </head>
+
   <body>
-    <header class="texto-centrado">
-      <h1>IGLESIA EVANGELICA ASAMBLEA DE DIOS CRISTO REDENTOR.</h1>
+    <header>
+      <img src="assets/images/logo.jpg" alt="Logo: Persona de brasos extendidos frente a la iglesia" class="logo-header">
+      <h1>
+      IGLESIA EVANGELICA ASAMBLEA DE DIOS CRISTO REDENTOR.</h1>
     </header>
 
     <nav>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary ">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <img
@@ -65,8 +72,16 @@
                   Usuario
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="loguear.html">Iniciar sesión</a></li>
-                  <li><a class="dropdown-item" href="registrarse.html">Registrarse</a></li>
+                  <li>
+                    <a class="dropdown-item" href="loguear.html"
+                      >Iniciar sesión</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="registrarse.html"
+                      >Registrarse</a
+                    >
+                  </li>
                   <li><hr class="dropdown-divider" /></li>
                   <li>
                     <a class="dropdown-item" href="gracias.html">Salir</a>
@@ -80,16 +95,88 @@
     </nav>
 
     <main>
-      <article>
-        <p class="texto-centrado">
-          Estamos preprando la pagina de la iglesia buscando publicarla en
-          github pages
-        </p>
-      </article>
+      <section>
+        <article class="seccion-article-principal py-5">
+          <h2 class="texto-centrado pb-3">Sobre la Iglesia Evangelista Asamblea de Dios Cristo redentor</h2>
+          <img src="assets/images/alfarero.jpg" alt="Alfarero: Manoss de un alfarero sobre barro" class="alfarero">
+          <p>
+            Ubicada en el Barrio Vista Hermosa de la ciudad, la <b><i>Evangelica Asamblea de Dios Cristo Redentor</i></b> trae a la comunidad el mensaje no nuevo sino mas bien de senda antigua biblico. Fundada en 2009, la Iglesia Evangelica Asamblea de Dios Cristo Redentor ya se destaca en la ciudad y conquista nuestros corazones por y para el Señor Jesus diariamente
+          </p>
+
+          <p><em>Nuestra misión es:</em> <b>Comaprtir las buenas nuevas de salvacion que es en Cirsto Jesus con nuestro vecinos.</b></p>
+
+          <p>Ofrcemos mensajes doctinales que estan constatemente basados en los fundamentos biblicos (profetas, apostoles y la piedra angular Cristo Jesus) donde los movimientos actuales buscan desligarse por las modas, para asi ofrecer a nustros projimos las primitivas doctrinas biblicas. Las reuniones possen un padrón de escelencia y agilidad, garantizando calidad y satisfaccion de nustro Señor Jesus.</p>
+
+        </article>
+      </section>
+      <section class="mapa pb-5">
+        <article>
+          <h3 class="texto-centrado">Nuestra ubicaciòn</h3>
+          <p>Nuestro establecimiento està ubicado en el barrio Vista Hermosa</p>
+        </article>
+        <aside class="mapa-contenido">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d194.27906404509216!2d-68.15876404695771!3d-38.821809679551805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e2!4m0!4m3!3m2!1d-38.821808!2d-68.158654!5e0!3m2!1ses-419!2sar!4v1706141934496!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </aside>
+      </section>
+      <section class="diferenciales">
+        <article>
+          <h3 class="texto-centrado">Diferenciales</h3>
+          <div class="contenido-diferenciales">
+            <ul class="lista-diferenciales">
+              <li>Obediente a la comisiòn</li>
+              <li>Centrada en la oración</li>
+              <li>Practica la hospitalidad</li>
+              <li>Preocupada por los necesitados</li>
+              <li>Sometida a la autoridad de Dios</li>
+              <li>Regosija en la adoración</li>
+              <li>Esforzada por la unidad</li>
+              <li>Esperando el arrebatamiento y segunda venida de Cristo</li>
+            </ul>
+            <img src="assets/images/adorando.jpg" alt="Adoracion: iglesia adorando a Dios" class="figura-diferencial-adoracion">
+          </div>
+        </article>
+        <aside class="video pt-5">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/Urd5nT1QiKg?si=e7iW8xzHUTnTqPJP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        </aside>
+      </section>
     </main>
 
-    <footer>
-      <p class="texto-centrado">footer</p>
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center border-top"
+    >
+      <div class="col-md-4 d-flex align-items-center">
+        <a
+          href="/"
+          class="mx-3 mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+        >
+          <img src="assets/images/logo.jpg" alt="Logo" width="30" height="30" />
+        </a>
+        <span class="mb-3 mb-md-0 text-white">© 2023 IEADCR.</span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="text-body-primary" href="#">
+            <i class="bi bi-youtube"></i>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-body-primary" href="#">
+            <i class="bi bi-twitter-x"></i>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-body-primary" href="#">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </li>
+        <li class="ms-3 mx-3">
+          <a class="text-body-primary" href="#">
+            <i class="bi bi-facebook"></i>
+          </a>
+        </li>
+      </ul>
     </footer>
 
     <script
@@ -97,5 +184,6 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="scripts/script.js"></script>
   </body>
 </html>
