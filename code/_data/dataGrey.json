@@ -1,0 +1,129 @@
+{
+  "anexo": {
+    "institucion": "IEADCR",
+    "nombre": "Cristo Redentor",
+    "denominacion": "Iglesia Evangelica Asamblea de Dios",
+    "anioInicio": 2009,
+    "urlYouTube": "https://www.youtube.com/@IEADCRF3384",
+    "urlTwitter": "#",
+    "urlGitHub": "#",
+    "urlLinkedIn": "#",
+    "urlInstagram": "#",
+    "ubicacion": "Centenario - Neuquen - Argentina",
+    "direccion": "B° barrio calle MZN manzana LT lote",
+    "celular": 542996377083,
+    "email": "ieadcr.f3384@gmail.com"
+  },
+  "servicios": [
+    {
+      "titulo": "Reuniones",
+      "descripcion": "Congregamos para alabar a Dios, andar en el espiritu y exortándonos en la palabra de Dios como dice la escritura. <ul class='text-left'> <li>Domingo 10: 00 hs</li> <li>Jueves 20: 00 hs</li><li>Sabado 20: 00 hs</li></ul>",
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 640 512'><!--!Font Awesome Free 6.7.2 by @fontawesome - https: //fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--> <path d='M344 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 24-32 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l32 0 0 46.4L183.3 210c-14.5 8.7-23.3 24.3-23.3 41.2L160 512l96 0 0-96c0-35.3 28.7-64 64-64s64 28.7 64 64l0 96 96 0 0-260.8c0-16.9-8.8-32.5-23.3-41.2L344 142.4 344 96l32 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-32 0 0-24zM24.9 330.3C9.5 338.8 0 354.9 0 372.4L0 464c0 26.5 21.5 48 48 48l80 0 0-238.4L24.9 330.3zM592 512c26.5 0 48-21.5 48-48l0-91.6c0-17.5-9.5-33.6-24.9-42.1L512 273.6 512 512l80 0z' /> </svg>"
+    },
+    {
+      "titulo": "Casamientos",
+      "descripcion": "Casamos parejas de la comundidad para contribuir en formalizar familias agradando a Dios.",
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'  viewBox='0 0 512 512'> <path d='M64 208c0 7.8 4.4 18.7 17.1 30.3C126.5 214.1 188.9 200 256 200s129.5 14.1 174.9 38.3C443.6 226.7 448 215.8 448 208c0-12.3-10.8-32-47.9-50.6C364.9 139.8 314 128 256 128s-108.9 11.8-144.1 29.4C74.8 176 64 195.7 64 208zm192 40c-47 0-89.3 7.6-122.9 19.7C166.3 280.2 208.8 288 256 288s89.7-7.8 122.9-20.3C345.3 255.6 303 248 256 248zM0 208c0-49.6 39.4-85.8 83.3-107.8C129.1 77.3 190.3 64 256 64s126.9 13.3 172.7 36.2c43.9 22 83.3 58.2 83.3 107.8l0 96c0 49.6-39.4 85.8-83.3 107.8C382.9 434.7 321.7 448 256 448s-126.9-13.3-172.7-36.2C39.4 389.8 0 353.6 0 304l0-96z' /> </svg>"
+    },
+    {
+      "titulo": "Presentaciones",
+      "descripcion": "Presentamos bebes de los matrimonios de la comunidad al Señor Jesucristo para acercar a la comunidad a nuestro salvador desde niños.",
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'  viewBox='0 0 512 512'><!--!Font Awesome Free 6.7.2 by @fontawesome - https: //fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--> <path d='M152 88a72 72 0 1 1 144 0A72 72 0 1 1 152 88zM39.7 144.5c13-17.9 38-21.8 55.9-8.8L131.8 162c26.8 19.5 59.1 30 92.2 30s65.4-10.5 92.2-30l36.2-26.4c17.9-13 42.9-9 55.9 8.8s9 42.9-8.8 55.9l-36.2 26.4c-13.6 9.9-28.1 18.2-43.3 25l0 36.3-192 0 0-36.3c-15.2-6.7-29.7-15.1-43.3-25L48.5 200.3c-17.9-13-21.8-38-8.8-55.9zm89.8 184.8l60.6 53-26 37.2 24.3 24.3c15.6 15.6 15.6 40.9 0 56.6s-40.9 15.6-56.6 0l-48-48C70 438.6 68.1 417 79.2 401.1l50.2-71.8zm128.5 53l60.6-53 50.2 71.8c11.1 15.9 9.2 37.5-4.5 51.2l-48 48c-15.6 15.6-40.9 15.6-56.6 0s-15.6-40.9 0-56.6L284 419.4l-26-37.2z' /></svg>"
+    },
+    {
+      "titulo": "Bautismos",
+      "descripcion": "Bautizamos la comunidad acompañando en el incio de la nueva vida en Jesus Cristo.",
+      "svg": "<svg version = '1.0' xmlns = 'http: //www.w3.org/2000/svg' width = '32' height = '32' viewBox = '0 0 1024 1024' preserveAspectRatio = 'xMidYMid meet' > <g transform='translate(0,1024) scale(0.1,-0.1)'> <path d='M3430 9443 c-275 -46 -532 -205 -678 -420 -128 -188 -192 -395 -192 -617 0 -129 10 -198 47 -311 55 -171 148 -319 276 -442 179 -171 374 -263 619 -293 161 -19 363 14 524 85 152 67 341 233 443 389 120 184 181 414 168 636 -28 481 -373 875 -845 966 -68 13 -299 18 -362 7z m323 -339 c78 -18 191 -66 253 -108 61 -41 153 -135 194 -197 79 -122 121 -321 101 -481 -23 -179 -79 -294 -203 -419 -64 -64 -94 -86 -180 -128 -127 -63 -197 -81 -309 -81 -150 0 -266 35 -391 117 -78 51 -189 167 -237 247 -110 183 -126 427 -43 631 43 106 151 239 250 307 160 110 379 154 565 112z' /> <path d='M6200 7961 c-349 -77 -608 -317 -726 -671 -27 -82 -28 -93 -28 -285 0 -190 1 -204 27 -289 75 -241 213 -415 442 -557 165 -102 329 -146 515 -136 326 18 605 171 775 426 106 160 157 307 171 494 8 113 -12 239 -60 379 -105 307 -342 531 -661 624 -124 36 -330 43 -455 15z m390 -340 c92 -29 184 -86 255 -157 73 -73 118 -146 158 -261 29 -80 32 -99 32 -208 -1 -105 -4 -130 -29 -200 -76 -218 -228 -360 -444 -416 -219 -56 -449 7 -607 166 -205 206 -250 479 -123 744 32 66 57 101 121 166 91 92 178 142 301 176 92 25 242 21 336 -10z' /> <path d='M2685 7254 c-277 -62 -566 -321 -680 -609 -64 -163 -49 -60 -360 -2425 -58 -443 -110 -836 -115 -873 -15 -100 8 -137 84 -137 42 0 244 117 251 145 3 11 48 351 100 755 270 2074 291 2232 315 2320 38 135 84 215 185 316 209 210 406 243 761 129 187 -61 201 -72 659 -510 552 -528 602 -574 638 -580 20 -4 48 -4 64 0 15 4 210 98 433 209 292 145 406 206 408 220 4 21 -141 242 -169 257 -14 7 -90 -27 -346 -155 l-328 -163 -405 384 c-223 211 -442 414 -488 451 -149 120 -269 174 -547 244 -151 37 -348 47 -460 22z' /> <path d='M3160 6003 c-116 -44 -146 -200 -54 -284 21 -19 378 -281 442 -325 4 -3 -6 -77 -157 -1229 -55 -418 -102 -772 -104 -788 -3 -26 3 -31 124 -92 131 -67 158 -75 177 -52 6 7 34 177 61 378 88 637 201 1490 201 1515 0 13 4 24 8 24 4 0 55 -34 112 -76 58 -42 131 -89 162 -105 67 -34 188 -69 238 -69 l36 0 28 143 c15 78 30 154 33 168 5 25 3 26 -56 32 -37 3 -86 17 -125 35 -67 31 -92 49 -636 451 -190 140 -359 260 -377 268 -33 13 -86 16 -113 6z' /> <path d='M5695 5959 c-200 -42 -348 -100 -488 -192 -234 -153 -365 -322 -445 -577 -32 -103 -114 -529 -189 -980 -67 -411 -65 -503 19 -680 34 -70 56 -100 127 -170 95 -94 166 -140 267 -174 l67 -23 -69 -6 c-133 -11 -275 -73 -527 -230 -137 -85 -264 -145 -380 -178 -104 -29 -278 -36 -390 -15 -165 31 -262 75 -471 211 -266 173 -416 221 -663 212 -204 -7 -307 -41 -534 -179 -165 -99 -257 -143 -345 -164 -77 -18 -219 -20 -290 -4 -120 27 -245 102 -372 224 -48 46 -97 88 -109 95 -30 15 -68 14 -103 -4 -54 -28 -60 -47 -60 -189 l0 -130 63 -61 c126 -123 309 -226 485 -272 136 -35 306 -35 443 0 156 41 204 64 509 250 117 71 214 100 340 101 58 0 130 -5 160 -13 87 -21 203 -80 359 -180 276 -180 491 -251 751 -251 260 0 505 82 774 260 220 145 330 185 481 177 119 -6 179 -31 408 -169 205 -124 287 -164 420 -207 317 -101 667 -74 998 76 36 17 142 74 234 128 309 179 372 201 508 172 94 -19 160 -50 307 -142 204 -128 354 -189 540 -221 322 -53 666 54 913 285 l62 59 3 117 c4 130 -4 161 -50 200 -21 17 -42 25 -69 25 -36 0 -48 -8 -141 -96 -175 -164 -279 -222 -453 -252 -75 -13 -107 -13 -192 -4 -162 18 -243 51 -490 199 -157 93 -246 134 -356 163 -50 13 -63 19 -41 19 105 2 282 96 395 211 135 136 196 299 186 495 -5 89 -80 559 -152 950 -78 426 -157 608 -339 783 -123 118 -259 204 -431 272 -104 41 -342 103 -370 96 -51 -13 -72 -144 -35 -216 25 -49 67 -78 194 -130 205 -85 322 -156 419 -253 144 -144 181 -267 324 -1077 73 -415 81 -509 47 -592 -66 -161 -192 -236 -378 -225 -101 5 -172 28 -235 74 -22 16 -211 189 -421 384 -350 325 -384 360 -418 424 -61 115 -115 114 -182 -2 -29 -50 -101 -122 -405 -403 -203 -188 -399 -364 -435 -390 -86 -65 -150 -85 -270 -85 -88 0 -101 3 -162 33 -121 59 -188 170 -188 312 0 120 180 1142 227 1285 69 214 228 368 493 479 190 80 248 113 275 160 33 56 39 89 25 131 -13 40 -56 95 -73 94 -7 0 -52 -9 -102 -20z m1051 -2296 c347 -320 431 -390 522 -432 57 -27 57 -27 46 -118 -6 -50 -8 -52 -44 -58 -43 -7 -215 -91 -350 -170 -335 -196 -733 -216 -1080 -54 -148 70 -340 183 -335 197 3 8 5 54 5 102 l0 89 59 31 c80 43 132 88 506 433 176 163 323 295 326 294 4 -1 159 -143 345 -314z' /> <path d='M6200 5652 c-58 -20 -148 -109 -184 -183 -31 -65 -47 -120 -152 -529 -42 -162 -77 -295 -77 -296 -1 0 -45 -29 -98 -62 -53 -34 -99 -62 -102 -62 -4 0 -7 90 -7 201 0 118 -4 208 -10 220 -16 29 -68 52 -105 45 -68 -13 -72 -24 -121 -357 -35 -232 -49 -306 -61 -314 -77 -48 -109 -106 -100 -180 9 -81 73 -139 153 -137 35 0 81 26 350 197 369 235 372 237 394 289 10 23 60 205 110 405 51 200 98 379 106 397 41 99 172 97 212 -3 6 -16 52 -192 102 -393 49 -201 99 -384 109 -407 14 -28 39 -55 83 -86 95 -68 555 -365 601 -389 102 -52 227 26 227 141 0 81 -16 96 -328 302 -158 105 -288 192 -290 194 -2 1 -43 160 -92 353 -114 446 -133 496 -223 584 -78 75 -101 82 -287 84 -128 2 -175 -1-210 -14z' /> <path d='M2415 2269 c-143 -33 -238 -78 -428 -201 -228 -148 -321 -182 -497 -182 -82 0 -132 5 -175 18 -87 26 -215 95 -334 181 -108 77 -138 88 -184 64 -50 -26 -57 -46 -57 -175 0 -146 1 -147 128 -228 269 -170 518 -232 762 -191 187 31 321 88 538 231 202 133 284 164 430 164 154 0 221 -26 457 -180 83 -54 192 -119 243 -144 295 -148 590 -174 897 -81 116 35 246 102 423 217 238 154 326 188 501 188 165 0 251 -33 476 -181 308 -204 495 -268 781 -269 285 0 481 65 779 261 252 165 332 195 505 186 72 -3 125 -12 168 -27 58 -21 99 -44 364 -207 104 -64 215 -112 337 -145 118 -33 332 -30 464 5 121 32 258 96 387 181 118 78 124 89 118 245 -3 102 -3 103 -36 132 -42 38 -86 38 -138 2 -263 -184 -351 -226 -519 -245 -148 -17 -290 18 -441 111 -44 26 -127 77 -186 113 -195 120 -313 158 -505 165 -255 10 -378 -32 -693 -232 -249 -159 -364 -202 -558 -212 -129 -7 -218 6 -327 44 -102 37 -153 64 -320 173 -173 113 -218 137 -335 178 -122 43 -215 55 -371 49 -202 -7 -340 -53 -534 -177 -199 -127 -278 -172 -350 -201 -137 -55 -188 -64 -345 -64 -223 0 -329 37 -597 208 -304 194 -427 237 -663 236 -69 -1 -143 -5 -165 -10z' /> <path d='M2465 1390 c-92 -14 -209 -51 -300 -95 -109 -53 -329 -196 -344 -223 -50 -94 1 -218 105 -252 59 -20 100 -6 210 70 207 142 366 194 525 172 136 -19 186 -42 414 -187 304 -193 515 -265 775 -265 267 0 484 77 809 289 86 56 184 111 223 126 132 48 278 55 407 19 79 -22 169 -70 325 -172 285 -187 503 -262 766 -262 265 0 489 77 785 271 224 147 312 181 471 180 156 0 280 -46 473 -177 84 -57 99 -64 143 -64 105 0 173 67 173 170 0 76 -17 98 -138 176 -313 205 -540 266 -808 219 -159 -27 -251 -68 -479 -214 -80 -51 -176 -108 -215 -126 -231 -111 -456 -129 -679 -54 -97 32 -170 72 -361 194 -147 94 -252 145 -370 181 -82 25 -105 28 -255 28 -144 1 -176 -2 -250 -23 -114 -31 -262 -103 -393 -190 -272 -180 -419 -234 -637 -234 -204 1 -344 50 -593 212 -160 103 -238 145 -334 181 -147 53 -306 71 -448 50z' /></g></svg>"
+    }
+  ],
+  "eventos": [
+    {
+      "id": "1",
+      "titulo": "Titulo Evento",
+      "descripcion": "Descripción evento.",
+      "localidad": "Localidad",
+      "fecha": "YY-MM-DD",
+      "tipo": "tipo",
+      "url": "#"
+    }
+  ],
+  "confesion": [
+    {
+      "titulo": "Dios",
+      "emoji": "❤ 🔥",
+      "barraPro": 100,
+      "descripcion": "Creemos en un solo Dios, que existe eternamente en tres Personas igualmente divinas: el Padre, el Hijo y el Espíritu Santo. Este único Dios verdadero es infinitamente perfecto tanto en su amor como en su santidad. Él es el Creador inmortal y eterno de todas las cosas, tanto visibles como invisibles. Él gobierna soberanamente sobre todas las cosas, y está trabajando providencialmente para redimir y restaurar Su creación caída. Él es digno de recibir toda la gloria y adoración.",
+      "sitasBiblia": "Génesis 1:1; Deuteronomio 6: 4; Isaías 6: 3; Mateo 5:48; 28:19; Juan 10:30; Colosenses 1:16; 1 Timoteo 1:17; 1 Juan 4: 8; Apocalipsis 4:11 "
+    },
+    {
+      "titulo": "Sagrada Escritura",
+      "emoji": "📖",
+      "barraPro": 100,
+      "descripcion": "Dios ha revelado gentilmente su existencia y poder en el orden creado, y en la Persona de su Hijo, el Verbo encarnado. Dios es un Dios que habla y que, por Su Espíritu, se ha divulgado gentilmente a través de las Escrituras, los sesenta y seis libros del Antiguo y Nuevo Testamento, que son un registro y un medio de Su obra salvadora en el mundo. Solo estos escritos son la Palabra de Dios inspirada verbalmente, que es autoritativa y sin error en los escritos originales, completa en su revelación de Su voluntad de salvación, suficiente para todo lo que Dios requiere que creamos, y final en su autoridad sobre cada dominio. En resumen, toda la Escritura es la Palabra de Dios inspirada, inerrante e infalible.",
+      "sitasBiblia": "Salmo 19:1–4; Proverbios 30:6; Juan 1:14; Romanos 1:19,20; Hebreos 1:1,2; 2 Timoteo 3:15,16; 2 Pedro 1:19-21"
+    },
+    {
+      "titulo": "Humanidad",
+      "emoji": "🌎",
+      "barraPro": 100,
+      "descripcion": "Creemos que Dios creó a los seres humanos, hombres y mujeres, a su propia imagen. Adán y Eva pertenecían al orden creado que Dios declaró “bueno en gran manera”. Tanto hombres como mujeres fueron creados de igual valor y tienen igual acceso a Dios a través de la fe en Jesucristo. Debido a que fuimos creados a Su imagen, creemos que la vida humana es sagrada desde la concepción hasta su fin natural y que debemos honrar las necesidades físicas, sociales y espirituales de todas las personas. Siguiendo el ejemplo de Cristo, creemos que cada persona debe ser tratada con amor, dignidad y respeto.",
+      "sitasBiblia": "Génesis 1:27,31; 9: 6; Éxodo 20:13; Marcos 12:30,31; Gálatas 3:28"
+    },
+    {
+      "titulo": "La Caída",
+      "emoji": "🤕",
+      "barraPro": 100,
+      "descripcion": "Creemos que todos los hombres en todas partes están perdidos y enfrentan el juicio de Dios. Creemos que Adán, hecho a la imagen de Dios, distorsionó esa imagen y perdió su bendición original, para él y para todos los que vinieron después de él, al caer en pecado a través de la tentación de Satanás. Ahora, todos los seres humanos están alejados de Dios, corrompidos en cada aspecto de su ser (física, mental, voluntariamente, emocionalmente, espiritualmente) y condenados a muerte de manera definitiva e irrevocable, aparte de la propia intervención de Dios. La necesidad suprema de todos los seres humanos es reconciliarse con el Dios bajo cuya justa y santa ira estamos; La única esperanza de todos los seres humanos es el amor inmerecido de este mismo Dios, quien solo puede rescatarnos y restaurarnos a Sí mismo a través de la obra de Jesucristo en la cruz.",
+      "sitasBiblia": "Génesis 3:6–19; Romanos 1:18; 3:23; 5:12–14; 1 Tesalonicenses 1:10"
+    },
+    {
+      "titulo": "Jesús",
+      "emoji": "🐑 🦁",
+      "barraPro": 100,
+      "descripcion": "Creemos que el Hijo eterno se hizo humano: la Palabra se hizo carne, completamente Dios y ser completamente humano, una Persona en dos naturalezas. El hombre Jesús, el prometido Mesías de Israel, fue concebido por medio del Espíritu Santo y nació de la virgen María. Obedeció perfectamente a su Padre celestial, vivió una vida sin pecado, realizó señales milagrosas, fue crucificado bajo Poncio Pilato, se levantó de entre los muertos al tercer día y ascendió al Cielo. Él está sentado a la diestra de Dios y es nuestro Sumo Sacerdote y nuestro justo Abogado.</br>Creemos que, por medio de su encarnación, vida, muerte, resurrección y ascensión, Jesucristo actuó como nuestro representante y sustituto Hizo esto para que en Él podamos llegar a ser la justicia de Dios. En la cruz, Él canceló el pecado, fue su sacrificio propicio a Dios el Padre, y al cargar con la pena completa de nuestros pecados, reconcilió con Dios a todos los que creen en Jesucristo. Por su resurrección, Cristo Jesús fue vindicado por su Padre, quebrantó el poder de la muerte y venció a Satanás, y trajo vida eterna a todo su pueblo; por Su ascensión, Él ha sido exaltado por siempre como Señor y ha preparado un lugar para que estemos para siempre con Él. Creemos que la salvación no se encuentra en nadie más, porque no hay otro nombre dado bajo el Cielo por el cual debemos ser salvos. Debido a que Dios escogió las cosas humildes de este mundo, las cosas despreciadas, las cosas que no son, para anular las cosas que son, ningún ser humano puede jactarse ante Él: Cristo Jesús se ha convertido para nosotros en sabiduría de Dios, es decir, nuestra Justicia, santidad y redención.",
+      "sitasBiblia": "Juan 1:1,2,14; 14: 6; Hechos 4:12; 1 Corintios 1:27–30; 15: 3–5; 2 Corintios 5:21; Colosenses 1:19–22; 2: 9; 1 Pedro 2:24; 1 Timoteo 2:5"
+    },
+    {
+      "titulo": "Justificación",
+      "emoji": "⚖",
+      "barraPro": 100,
+      "descripcion": "Creemos que Cristo, por su obediencia y muerte, cargó completamente la deuda de todos los que están justificados. Por Su sacrificio, soportó en nuestro lugar el castigo que merecíamos por nuestros pecados, haciendo una satisfacción adecuada, real y completa a la justicia de Dios en nuestro nombre. Por su obediencia perfecta, Él satisfizo las justas demandas de Dios en nuestro nombre, ya que solo por la fe se acredita la obediencia perfecta a todos los que confían solo en Cristo para su aceptación con Dios. Puesto que Cristo fue dado por el Padre para nosotros, y su obediencia y castigo fueron aceptados en lugar de los nuestros, libremente y no por nada en nosotros, esta justificación es únicamente de gracia gratuita, para que tanto la justicia exacta como la gracia rica de Dios puedan ser glorificadas en la justificación de los pecadores. Creemos que el celo por la obediencia personal y pública se deriva de esta justificación gratuita.",
+      "sitasBiblia": "Romanos 3:21,22,24,26,28–30; 4:3,5; 5:1,9; 10:9,10; Gálatas 2:16; Efesios 2:8,9; Filipenses 3:9"
+    },
+    {
+      "titulo": "El Espíritu Santo",
+      "emoji": "🕊",
+      "barraPro": 100,
+      "descripcion": "Creemos que la salvación, atestiguada en todas las Escrituras y asegurada por Jesucristo, se aplica a su pueblo por el Espíritu Santo. Enviado por el Padre y el Hijo, el Espíritu Santo glorifica al Señor Jesucristo y está presente con y en los creyentes. Él convence al mundo de pecado, justicia y juicio, y por su obra poderosa y misteriosa regenera a los pecadores espiritualmente muertos. Creemos en el ministerio actual del Espíritu Santo por cuya vida el cristiano está capacitado para vivir una vida piadosa. En Él se bautizan en unión con el Señor Jesús, de tal manera que son justificados ante Dios solo por gracia a través de la fe solamente en Jesucristo solo.<br/>Por la agencia del Espíritu, los creyentes son renovados, santificados y adoptados en la familia de Dios. El Espíritu Santo es el pago inicial de la herencia prometida, y en esta época reside, guía, instruye, equipa, revive y capacita a los creyentes para una vida y servicio semejantes a Cristo.",
+      "sitasBiblia": "Mateo 9:13; Juan 1:12,13; 3:3–7; 5:21; 7:37–39; 16:7–14; Romanos 6:13; Efesios 1:13,14; 2:5; Tito 3:5"
+    },
+    {
+      "titulo": "La Iglesia y Su Gran Comisión",
+      "emoji": "⛪ 📣",
+      "barraPro": 100,
+      "descripcion": "Creemos que el pueblo del nuevo pacto de Dios se ha salvado en la Iglesia, su novia. Esta Iglesia universal se manifiesta en las iglesias locales de las cuales Cristo es la única Cabeza; así, cada “iglesia local” es, de hecho, la Iglesia, la casa de Dios, la asamblea del Dios vivo, y el pilar y fundamento de la verdad. La Iglesia es el cuerpo de Cristo, la niña de sus ojos, grabada en sus manos, y Él se ha comprometido con ella para siempre. La Iglesia se distingue por su mensaje del evangelio, sus ordenanzas sagradas, su disciplina, su gran misión y, sobre todo, por su amor a Dios y por el amor de sus miembros entre sí y por los que están en el mundo. Este evangelio que apreciamos tiene dimensiones tanto personales como corporativas, ninguna de las cuales se puede pasar por alto. Cristo Jesús es nuestra paz: Él no solo ha logrado la paz con Dios, sino también la paz entre los pueblos judío y gentil. Su propósito era crear en sí mismo una nueva humanidad, haciendo así la paz, y en un cuerpo para reconciliar a todas las personas con Dios a través de la cruz, mediante la cual Él mató su enemistad. La Iglesia sirve como un signo real del reino de Dios cuando sus miembros viven para el servicio de los demás y de sus vecinos, en lugar de enfocarse en sí mismos. La Iglesia es la morada corporativa del Espíritu de Dios y el testimonio continuo de Dios en el mundo. Creemos que es el mandato de toda la iglesia ir al mundo y predicar el evangelio a cada persona, haciendo discípulos para la Gloria de Dios.",
+      "sitasBiblia": "Mateo 28:20; Marcos 16:15; Juan 13:35; 1 Corintios 12:12–27; Efesios 4:11-16; 1 Pedro 2:9; Apocalipsis 21:2,9,10"
+    },
+    {
+      "titulo": "La Resurrección",
+      "emoji": "✝ ⚰ ☁",
+      "barraPro": 100,
+      "descripcion": "Creemos en el regreso personal, glorioso y corporal de nuestro Señor Jesucristo cuando Él ejercerá su papel como Juez final, y Su reino será consumado. Creemos en la resurrección corporal tanto de los justos como de los injustos: lo injusto al juicio y el eterno castigo consciente en el Infierno, como lo enseñó nuestro Señor, y lo justo a la bendición eterna en la presencia de Aquel que se sienta en el trono y de la Cordero, en el nuevo cielo y la nueva tierra, el hogar de la justicia. En ese día, la Iglesia se presentará impecable ante Dios por la obediencia, el sufrimiento y el triunfo de Cristo, todo el pecado purificado y sus efectos miserables desterrados para siempre. Dios será todo en todo y su pueblo estará en presencia de su santidad, y todo será para la alabanza de su gloriosa gracia.",
+      "sitasBiblia": "Mateo 16:27; 25:31–34; Juan 14:3; Hechos 1:11; 1 Corintios 15:51–53; Efesios 3:20,21; 1 Tesalonicenses 4:15–17; Apocalipsis 1:7"
+    }
+  ],
+  "testimonios": [
+    {
+      "id": 1,
+      "nombre": "Nombre prójimo",
+      "testimonio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorem temporibus ut, numquam ab dignissimos est quam deleniti sed eligendi obcaecati, consectetur, illo et consequuntur inventore eum dicta animi natus..",
+      "membresia": "Tipo membresia prójimo"
+    },
+    {
+      "id": 2,
+      "nombre": "Esteban Joselo Orellano",
+      "testimonio": "Agradecido con Cristo Jesus, esperando se cumplan sus promesas de vida eterna, corriendo la buena carrera de la fé en Jesus Cristo. Confesando a Jesus Cristo publicamente delante de los hombres, para que que el no me niegue.",
+      "membresia": "miembro"
+    }
+  ]
+}

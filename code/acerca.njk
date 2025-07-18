@@ -1,0 +1,84 @@
+---
+layout: layout-base-no-hero.njk
+title: Acerca IEADCR
+description: Página de Acerca IEADCR Centenario.
+tags: ["pages"]
+date: "2025-07-14"
+meta_url: acerca
+---
+
+<section class="about section container full-lg-screen">
+  <article class="text-lg-right">
+    <aside class="text-center text-lg-right container">
+      <h2 class="section-title">{{ dataGrey.anexo.nombre }}</h2>
+      <h5>{{ dataGrey.anexo.denominacion }}</h5>
+    </aside>
+    <p>
+      Ubicada en {{ dataGrey.anexo.direccion }}
+      {{ dataGrey.anexo.ubicacion }},
+      <b>{{ dataGrey.anexo.denominacion }}
+        {{ dataGrey.anexo.nombre }}
+        {{ dataGrey.anexo.institucion }}</b>
+      trae a la comunidad el mensaje no nuevo sino mas bien de senda antigua biblico. Fundada en 2009, la Iglesia Evangelica
+      Asamblea de Dios Cristo Redentor ya se destaca en la ciudad y conquista nuestros corazones por y para el Señor Jesus
+      diariamente.
+    </p>
+    <p>
+      <em>Nuestra misión es:</em>
+      <b>Compartir las buenas nuevas de salvación que es en Cirsto Jesus al prójimo.</b>
+    </p>
+    <p>
+      Ofrcemos mensajes doctrinales basados en los fundamentos biblicos (profetas, apostoles y la piedra angular Cristo Jesus)
+      donde los movimientos actuales buscan desligarse por las modas, para asi ofrecer a nuestros projimos las primitivas
+      doctrinas biblicas. Las reuniones pooseen un patrón de excelencia y agilidad, garantizando calidad y satisfaccion de
+      nustro Señor Jesus.
+    </p>
+    <div class="text-center text-lg-left">
+      <a class="btn" href="https://biblicalevangelism.com/es/declaracion-de-fe/" target="_black" rel="noopener">DESCARGA
+        NUESTRA DECLARACIÓN DE FE</a>
+    </div>
+  </article>
+  <article class="text-center">
+    <h2>Nuestra ubicación</h2>
+    <p>{{ dataGrey.anexo.direccion }}</p>
+    <aside>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d194.27906404509216!2d-68.15876404695771!3d-38.821809679551805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e2!4m0!4m3!3m2!1d-38.821808!2d-68.158654!5e0!3m2!1ses-419!2sar!4v1706141934496!5m2!1ses-419!2sar"
+        width="100%"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></aside>
+      <p>
+        <b>Te esperamos</b>
+      </p>
+      <img class="gray-scale" src="/assets/img/adorando.jpg" alt="Adoracion: iglesia adorando a Dios"></article>
+      <article class="text-lg-left">
+        <h2 class="text-center text-lg-left">Declaración de fé</h2>
+        <aside class="text-center text-lg-left">
+          {% for fe in dataGrey.confesion %}
+            <details>
+              <summary class="progress">
+                {{ fe.titulo | safe }}
+                <p>
+                  <b>{{ fe.emoji | safe }}</b>
+                  <b>{{ fe.barraPro | safe }}%</b>
+                </p>
+                <progress value="{{ fe.barraPro | safe }}" min="0" max="100"></progress>
+              </summary>
+              <p>
+                {{ fe.descripcion | safe }}
+              </p>
+              <hr/>
+              <b>
+                <i>
+                  <small>
+                    {{ fe.sitasBiblia | safe }}</small>
+                </i>
+              </b>
+            </details>
+          {% endfor %}
+        </aside>
+      </article>
+    </section>

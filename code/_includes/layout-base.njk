@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ metadata.language }}">
+  <head>
+    <!-- Global metadata -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="theme-color" content="{{ metadata.themeColor }}"/>
+    <link rel="icon" href="/assets/img/favicon.jpg">
+    <link rel="apple-touch-icon" href="/assets/img/favicon.png"/>
+    <link
+    rel="canonical" href="{{ metadata.siteUrl }}{{ metadata.pathPrefix | replace("/","",1) }}{{ meta_url }}"/>
+    <!-- Prymary Meta Tags -->
+    <title>{{ title or metadata.title }}</title>
+    <meta name="title" content="{{ title or metadata.title }}"/>
+    <meta
+    name="description" content="{{ description or metadata.description }}"> <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="{{ metadata.siteUrl }}{{ metadata.pathPrefix | replace("/","",1) }}{{ meta_url }}"/>
+    <meta property="og:title" content="{{ title or metadata.title }}">
+    <meta property="og:description" content="{{ description or metadata.description }}">
+    <meta
+    property="og:image" content="{{ metadata.siteUrl }}{{ metadata.pathPrefix | replace("/","",1) }}assets/img/favicon.jpg"/> <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image"/>
+    <meta property="twitter:url" content="{{ metadata.siteUrl }}{{ metadata.pathPrefix | replace("/","",1) }}{{ meta_url }}"/>
+    <meta property="twitter:title" content="{{ title or metadata.title }}"/>
+    <meta property="twitter:description" content="{{ description or metadata.description }}"/>
+    <meta property="twitter:image" content="{{ metadata.siteUrl }}{{ metadata.pathPrefix | replace("/","",1) }}assets/img/favicon.jpg"/> <!-- Styles -->
+    <!-- fuente raleway --> <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="/css/styles.css"/>
+  </head>
+  <body>
+    {% include "header.njk" %}
+    <main>
+      {% include "hero-image.njk" %}
+      {{ content | safe }}
+    </main>
+    {% include "footer.njk" %}
+    <script src="/js/main.js" type="module"></script>
+  </body>
+</html>

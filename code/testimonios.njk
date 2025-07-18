@@ -1,0 +1,53 @@
+---
+layout: layout-base-no-hero.njk
+title: Testimonios IEADCR
+description: Este es un starter project para gestionar y desplegar proyectos web minimalistas con Eleventy 3 y Github.
+tags: ["pages"]
+date: "2025-07-14"
+meta_url: testimonios
+---
+
+<section class="testimonials">
+  <article
+    class="hero-image"
+    style=" --hero-image: url('{{ metadata.pathPrefix }}/assets/img/hero-image-neighbors.jpg'); --hero-attachment: scroll; ">
+    <aside class="hero-image-opacity" style="--hero-opacity-color: var(--white-alpha-color)">
+      <div class="hero-image-content">
+        <div class="container">
+          <h2 class="section-title">Nuestros prójimos dicen
+          </h2>
+          <article class="carousel" style="--carousel-bg-color: var(--white-alpha-color)">
+            {% for testimonio in dataGrey.testimonios %}
+              {% if 1 == testimonio.id %}
+                <input type="radio" name="slides" id="slide-{{ testimonio.id }}" checked/>
+              {% else %}
+                <input type="radio" name="slides" id="slide-{{ testimonio.id }}"/>
+              {% endif %}
+            {% endfor %}
+            <ul class="slides">
+              {% for testimonio in dataGrey.testimonios %}
+                <li class="slide">
+                  <img class="avatar" src="/assets/img/neighbour-{{ testimonio.id }}.jpg" alt="Prójimo {{ testimonio.id }}"/>
+                  <blockquote>
+                    {{ testimonio.testimonio }}
+                  </blockquote>
+                  <h3 class="text-first-color">
+                    {{ testimonio.nombre }}
+                  </h3>
+                  <h6>
+                    {{ testimonio.membresia }}
+                  </h6>
+                </li>
+              {% endfor %}
+            </ul>
+            <aside class="slides-nav">
+              {% for testimonio in dataGrey.testimonios %}
+                <label for="slide-{{ testimonio.id }}" id="dot-{{ testimonio.id }}"></label>
+              {% endfor %}
+            </aside>
+          </article>
+        </div>
+      </div>
+    </aside>
+  </article>
+</section>

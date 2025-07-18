@@ -1,0 +1,4 @@
+# indexacion MAC
+.DS_Store
+# dependencias node
+node_modules

@@ -1,0 +1,24 @@
+{
+  "name": "iglesia-centenario-f3384",
+  "version": "2.0.0",
+  "description": "Este es un proyecto web estatico IEADCR Centenario siguiendo starter project minimalista con Eleventy 3 y Github Pages de jonmircha.",
+  "main": "eleventy.config.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve --port=7777",
+    "build": "npx @11ty/eleventy",
+    "clean": "rm -rf docs"
+  },
+  "keywords": [
+    "11ty",
+    "eleventy",
+    "github pages",
+    "jonmircha"
+  ],
+  "author": "Esteban Joselo Orellano <jeorellano88@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.1"
+  }
+}

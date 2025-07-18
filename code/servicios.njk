@@ -1,0 +1,23 @@
+---
+layout: layout-base-no-hero.njk
+title: Servicios IEADCR
+description: Página de Servicios IEADCR Centenario
+tags: ["pages"]
+date: "2025-07-14"
+meta_url: servicios
+---
+
+<section class="services section bg-gray-ligth">
+  <div class="container full-lg-screen">
+    <h2 class="section-title">¿En qué servimos?</h2>
+    {% for servicio in dataGrey.servicios %}
+      <article class="service-card">
+        {{ servicio.svg | safe }}
+        <h3>{{ servicio.titulo | safe }}</h3>
+        <p>
+          {{ servicio.descripcion | safe }}
+        </p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
