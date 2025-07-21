@@ -71,3 +71,11 @@ footerFecha.textContent += new Date().getFullYear() + " IEADCR";
     });
   }
 })(document);
+
+/* PWA */
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker
+    .register("https://jeorellano.github.io/iglesia-centenario-f3384/js/sw.js")
+    .then((reg) => console.log("Registro de SW exitoso", reg))
+    .catch((err) => console.warn("Error al tratar de registrar el sw", err));
+}
