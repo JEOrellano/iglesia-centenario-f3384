@@ -3,12 +3,11 @@ const CACHE_NAME = "v1_cache_ieadcr",
   urlsToCache = [
     "https://jeorellano.github.io/iglesia-centenario-f3384/",
     "https://fonts.googleapis.com",
-    "https://fonts.gstatic.com",
     "https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap",
     "https://jeorellano.github.io/iglesia-centenario-f3384/css/style.css",
     "https://jeorellano.github.io/iglesia-centenario-f3384/js/script.js",
-    "https://jeorellano.github.io/iglesia-centenario-f3384//assets/img/hero-image-home.jpg",
-    "https://jeorellano.github.io/iglesia-centenario-f3384//assets/img/favicon.png",
+    "https://jeorellano.github.io/iglesia-centenario-f3384/assets/img/hero-image-home.jpg",
+    "https://jeorellano.github.io/iglesia-centenario-f3384/assets/img/favicon.png",
   ];
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos

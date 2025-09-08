@@ -147,16 +147,16 @@ svg {
   cursor: pointer;
 }
 
-#slide-1:checked~.slides {
+#slide-1:checked ~ .slides {
   transform: translateX(0%);
 }
 
-#slide-2:checked~.slides {
+#slide-2:checked ~ .slides {
   transform: translateX(-50%);
 }
 
-#slide-1:checked~.slides-nav label#dot-1,
-#slide-2:checked~.slides-nav label#dot-2 {
+#slide-1:checked ~ .slides-nav label#dot-1,
+#slide-2:checked ~ .slides-nav label#dot-2 {
   background-color: var(--gray-dark-color);
 }
 
@@ -171,7 +171,7 @@ svg {
   color: var(--gray-dark-color);
 }
 
-.contact-form>* {
+.contact-form > * {
   padding: 0.5rem;
   margin: 1rem auto;
   display: block;
@@ -402,11 +402,11 @@ progress::-moz-progress-bar {
   margin: 1rem auto;
 }
 
-.progress>p {
+.progress > p {
   margin: 0;
   display: flex;
   justify-content: space-between;
-  font-size: .85rem;
+  font-size: 0.85rem;
 }
 
 /* ************ Utlities ************ */
@@ -455,6 +455,10 @@ progress::-moz-progress-bar {
 
 .none {
   display: none;
+}
+
+.p1 {
+  padding: 1rem;
 }
 
 .section {
@@ -508,7 +512,7 @@ progress::-moz-progress-bar {
 
 /* ************ Site Styles ************ */
 
-.about>article {
+.about > article {
   margin-bottom: 2rem;
 }
 
@@ -523,13 +527,13 @@ progress::-moz-progress-bar {
   align-items: center;
 }
 
-.contact-card>svg {
+.contact-card > svg {
   width: 2rem;
   height: 2rem;
   fill: var(--first-color);
 }
 
-.contact-card>small {
+.contact-card > small {
   margin-top: -1rem;
 }
 
@@ -550,7 +554,7 @@ progress::-moz-progress-bar {
 
 .footer img {
   width: 3rem;
-  height: auto
+  height: auto;
 }
 
 .header {
@@ -564,7 +568,7 @@ progress::-moz-progress-bar {
   background-color: var(--second-color);
 }
 
-.header>.container {
+.header > .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -609,7 +613,7 @@ progress::-moz-progress-bar {
   pointer-events: auto;
 }
 
-.event-card-info>div {
+.event-card-info > div {
   padding: 1rem;
   border: thin solid var(--white-color);
   width: 100%;
@@ -670,7 +674,7 @@ progress::-moz-progress-bar {
 }
 
 .social-media a {
-  padding: 0 .4rem;
+  padding: 0 0.4rem;
   text-decoration: none;
 }
 
@@ -679,14 +683,30 @@ progress::-moz-progress-bar {
   height: 1.5rem;
 }
 
-@media screen and (min-width:768px) {
+.video-responsive-container {
+  position: relative;
+  /* La relación de aspecto 16:9 se calcula como (9/16) * 100 = 56.25% */
+  padding-top: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-responsive-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
   .contact-cards {
     display: grid;
     grid-template-columns: repeat(2, 48%);
     justify-content: space-between;
   }
 
-  .event>.container {
+  .event > .container {
     display: grid;
     grid-template-columns: repeat(2, 50%);
   }
@@ -705,7 +725,7 @@ progress::-moz-progress-bar {
     align-self: center;
   }
 
-  .services>.container {
+  .services > .container {
     display: grid;
     grid-template-columns: repeat(2, 45%);
     justify-content: space-between;
@@ -717,7 +737,7 @@ progress::-moz-progress-bar {
   }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
   .about {
     display: grid;
     grid-template-columns: repeat(3, 30%);
@@ -740,7 +760,7 @@ progress::-moz-progress-bar {
     height: calc(var(--header-height) - 0.5rem);
   }
 
-  .event>.container {
+  .event > .container {
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -748,7 +768,7 @@ progress::-moz-progress-bar {
     grid-column: span 3;
   }
 
-  .services>.container {
+  .services > .container {
     grid-template-columns: repeat(3, 30%);
   }
 

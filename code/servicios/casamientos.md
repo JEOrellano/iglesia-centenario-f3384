@@ -1,6 +1,6 @@
 ---
 tags: ["servicios", "casamientos"]
-titulo: Titulo
-descripcion: Descripcion
+title: Titulo
+description: Descripcion
 urlVideo: url del video
 ---
