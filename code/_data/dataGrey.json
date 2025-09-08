@@ -125,5 +125,11 @@
       "testimonio": "Agradecido con Cristo Jesus, esperando se cumplan sus promesas de vida eterna, corriendo la buena carrera de la fé en Jesus Cristo. Confesando a Jesus Cristo publicamente delante de los hombres, para que que el no me niegue.",
       "membresia": "miembro"
     }
+  ],
+  "reuniones": [
+    {
+      "titulo": "titulo",
+      "descripcion": "descripcion"
+    }
   ]
 }

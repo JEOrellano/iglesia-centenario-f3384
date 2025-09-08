@@ -17,6 +17,34 @@ meta_url: servicios
         <p>
           {{ servicio.descripcion | safe }}
         </p>
+        {% if servicio.titulo == "Reuniones" %}
+
+          <!-- Simple pop-up dialog box, containing a form -->
+          <dialog id="favDialog">
+            <form method="dialog">
+              <details>
+                <summary>Haz clic para ver la lista</summary>
+                <ul>
+                  {% for reunion in collections.reuniones | reverse %}
+                  <li>
+                    <a href="{{reunion.url}}">
+                      {{ reunion.data.title | safe }}
+                    </a>
+                  </li>
+                {% endfor %}
+                </ul>
+              </details>
+              <menu>
+                <button id="cancel" type="reset" class="btn">Cerrar</button>
+              </menu>
+            </form>
+          </dialog>
+
+          <menu>
+            <button id="updateDetails" class="btn">Ver más</button>
+          </menu>
+
+        {% endif %}
       </article>
     {% endfor %}
   </div>

@@ -1,3 +1,24 @@
+/* ************ Servicios ************ */
+// Modal reuniones
+((d) => {
+  const $updateButton = document.getElementById("updateDetails"),
+    $cancelButton = document.getElementById("cancel"),
+    $favDialog = document.getElementById("favDialog");
+
+  // Update button opens a modal dialog
+  if ($updateButton != null) {
+    $updateButton.addEventListener("click", function () {
+      $favDialog.showModal();
+    });
+  }
+
+  // Form cancel button closes the dialog box
+  if ($cancelButton != null) {
+    $cancelButton.addEventListener("click", function () {
+      $favDialog.close();
+    });
+  }
+})(document);
 /* ************ Footer ************ */
 // Fecha actual
 const footerFecha = document.querySelector("footer span");
