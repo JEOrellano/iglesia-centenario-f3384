@@ -39,12 +39,12 @@
   "eventos": [
     {
       "id": "1",
-      "titulo": "Titulo Evento",
-      "descripcion": "Descripción evento.",
-      "localidad": "Localidad",
-      "fecha": "YY-MM-DD",
-      "tipo": "tipo",
-      "url": "#"
+      "titulo": "Evangelizando Plaza",
+      "descripcion": "Comaprtiendo evangelio de Jesuscristo y repartiendo tratados.",
+      "localidad": "Centenario",
+      "fecha": "2025-10-25",
+      "tipo": "evangelizar",
+      "url": "https://youtu.be/q-soJwjyiZ0?si=cE5_kGdwyyvd6qmp"
     }
   ],
   "confesion": [
