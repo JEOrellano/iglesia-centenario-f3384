@@ -7,10 +7,10 @@ date: "2025-07-14"
 meta_url: eventos
 ---
 
-{% for evento in dataGrey.eventos %}
   <section class="event section full-lg-screen">
     <div class="container">
       <h2 class="section-title">Nuestros Eventos</h2>
+      {% for evento in dataGrey.eventos %}
       <a href="#evento-{{ evento.id }}" class="event-card">
         <img src="/assets/img/evento-{{ evento.id }}.jpg" alt="Evento {{ evento.id }}"/>
         <aside class="event-card-info">
@@ -22,8 +22,10 @@ meta_url: eventos
           </div>
         </aside>
       </a>
+      {% endfor %}
     </div>
   </section>
+  {% for evento in dataGrey.eventos %}
   <article class="modal" id="evento-{{ evento.id }}">
     <div class="modal-content">
       <a href="#cerrar" class="modal-close">
