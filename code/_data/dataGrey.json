@@ -54,6 +54,15 @@
       "fecha": "2025-11-01",
       "tipo": "evangelizar",
       "url": "https://youtu.be/tElsBkbEkl0?si=RoqhtV6JeWx2b5QE"
+    },
+    {
+      "id": "3",
+      "titulo": "Evangelizando Plaza",
+      "descripcion": "Comaprtiendo evangelio de Jesuscristo y repartiendo tratados.",
+      "localidad": "Centenario",
+      "fecha": "2025-11-22",
+      "tipo": "evangelizar",
+      "url": "https://youtu.be/jrXT_yFrThc?si=PgI1eCZG27tayAg7"
     }
   ],
   "confesion": [
