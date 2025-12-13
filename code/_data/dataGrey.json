@@ -90,6 +90,15 @@
       "fecha": "2025-12-12",
       "tipo": "camapaña",
       "url": "https://youtu.be/6_QRHUe3Q20?si=L-tkGrg6M3VB_3Z9"
+    },
+    {
+      "id": "7",
+      "titulo": "Evangelizando Plaza",
+      "descripcion": "Comaprtiendo evangelio de Jesuscristo y repartiendo tratados.",
+      "localidad": "Centenario",
+      "fecha": "2025-12-13",
+      "tipo": "evangelizar",
+      "url": "https://youtu.be/0ql4LluWnAQ?si=CUhsQjbl6PmzTLci"
     }
   ],
   "confesion": [
