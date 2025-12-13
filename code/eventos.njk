@@ -10,7 +10,7 @@ meta_url: eventos
   <section class="event section full-lg-screen">
     <div class="container">
       <h2 class="section-title">Nuestros Eventos</h2>
-      {% for evento in dataGrey.eventos %}
+      {% for evento in dataGrey.eventos | reverse %}
       <a href="#evento-{{ evento.id }}" class="event-card">
         <img src="/assets/img/evento-{{ evento.id }}.jpg" alt="Evento {{ evento.id }}"/>
         <aside class="event-card-info">
