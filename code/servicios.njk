@@ -45,6 +45,34 @@ meta_url: servicios
           </menu>
 
         {% endif %}
+        {% if servicio.titulo == "Bautismos" %}
+
+          <!-- Simple pop-up dialog box, containing a form -->
+          <dialog id="favDialogBautismo">
+            <form method="dialog">
+              <details>
+                <summary>Haz clic para ver la lista</summary>
+                <ul>
+                  {% for bautismo in collections.bautismos | reverse %}
+                  <li>
+                    <a href="{{bautismo.url}}">
+                      {{ bautismo.data.title | safe }}
+                    </a>
+                  </li>
+                {% endfor %}
+                </ul>
+              </details>
+              <menu>
+                <button id="cancelBautismo" type="reset" class="btn">Cerrar</button>
+              </menu>
+            </form>
+          </dialog>
+
+          <menu>
+            <button id="updateDetailsBautismo" class="btn">Ver más</button>
+          </menu>
+
+        {% endif %}
       </article>
     {% endfor %}
   </div>

@@ -109,8 +109,16 @@ svg {
     transform: translateX(0%);
   }
 
+  25% {
+    transform: translateX(-25%);
+  }
+
   50% {
     transform: translateX(-50%);
+  }
+
+  75% {
+    transform: translateX(-75%);
   }
 }
 
@@ -126,7 +134,7 @@ svg {
 .carousel .slides {
   padding-left: 0;
   /* 100% por cada slide */
-  width: 200%;
+  width: 300%;
   display: flex;
   list-style: none;
   transition: transform 0.5s ease-in-out;
@@ -152,11 +160,16 @@ svg {
 }
 
 #slide-2:checked ~ .slides {
-  transform: translateX(-50%);
+  transform: translateX(-33.3333%);
+}
+
+#slide-3:checked ~ .slides {
+  transform: translateX(-66.6666%);
 }
 
 #slide-1:checked ~ .slides-nav label#dot-1,
-#slide-2:checked ~ .slides-nav label#dot-2 {
+#slide-2:checked ~ .slides-nav label#dot-2,
+#slide-3:checked ~ .slides-nav label#dot-3 {
   background-color: var(--gray-dark-color);
 }
 

@@ -185,8 +185,14 @@
     {
       "id": 2,
       "nombre": "Esteban Joselo Orellano",
-      "testimonio": "Agradecido con Cristo Jesus, esperando se cumplan sus promesas de vida eterna, corriendo la buena carrera de la fé en Jesus Cristo. Confesando a Jesus Cristo publicamente delante de los hombres, para que el no me niegue.",
+      "testimonio": "Agradecido con Cristo Jesus, esperando se cumplan sus promesas de vida eterna, corriendo la buena carrera de la fé en Jesus Cristo. Confesando a Jesus Cristo publicamente delante de los hombres.",
       "membresia": "miembro"
+    },
+    {
+      "id": 3,
+      "nombre": "Ezequiel morel",
+      "testimonio": "Efesios 2-1 Y él os dio vida a vosotros, cuando estabais muertos en vuestros delitos y pecados...Efesios 2-1 Y él os dio vida a vosotros, cuando estabais muertos en vuestros delitos y pecados...",
+      "membresia": "vsisita denominacional"
     }
   ],
   "reuniones": [
