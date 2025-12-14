@@ -99,6 +99,15 @@
       "fecha": "2025-12-13",
       "tipo": "evangelizar",
       "url": "https://youtu.be/0ql4LluWnAQ?si=CUhsQjbl6PmzTLci"
+    },
+    {
+      "id": "8",
+      "titulo": "Campaña Evangelista Iglesia",
+      "descripcion": "Comaprtiendo evangelio de Jesuscristo y repartiendo tratados.",
+      "localidad": "Centenario",
+      "fecha": "2025-12-13",
+      "tipo": "camapaña",
+      "url": "https://youtu.be/Rvt2T2Di4To"
     }
   ],
   "confesion": [
