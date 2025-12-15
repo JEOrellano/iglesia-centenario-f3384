@@ -109,23 +109,20 @@ svg {
     transform: translateX(0%);
   }
 
-  25% {
-    transform: translateX(-25%);
+  33.3333% {
+    transform: translateX(-33.3333%);
   }
 
-  50% {
-    transform: translateX(-50%);
-  }
-
-  75% {
-    transform: translateX(-75%);
+  66.6666% {
+    transform: translateX(-66.6666%);
   }
 }
 
 .carousel {
   margin: 2rem auto;
   padding: 2rem 0;
-  max-width: 50rem;
+  width: 70vw;
+  max-width: 1200px;
   text-align: center;
   overflow-x: hidden;
   background-color: var(--carousel-bg-color);
