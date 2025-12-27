@@ -43,7 +43,7 @@
       "descripcion": "Comaprtiendo evangelio de Jesuscristo y repartiendo tratados.",
       "localidad": "Centenario",
       "fecha": "2025-10-25",
-      "tipo": "evangelizar",
+      "tipo": "evangelio",
       "url": "https://youtu.be/q-soJwjyiZ0?si=cE5_kGdwyyvd6qmp"
     },
     {
@@ -52,7 +52,7 @@
       "descripcion": "Comaprtiendo evangelio de Jesuscristo y repartiendo tratados.",
       "localidad": "Centenario",
       "fecha": "2025-11-01",
-      "tipo": "evangelizar",
+      "tipo": "evangelio",
       "url": "https://youtu.be/tElsBkbEkl0?si=RoqhtV6JeWx2b5QE"
     },
     {
@@ -61,7 +61,7 @@
       "descripcion": "Comaprtiendo evangelio de Jesuscristo y repartiendo tratados.",
       "localidad": "Centenario",
       "fecha": "2025-11-22",
-      "tipo": "evangelizar",
+      "tipo": "evangelio",
       "url": "https://youtu.be/jrXT_yFrThc?si=PgI1eCZG27tayAg7"
     },
     {
@@ -70,7 +70,7 @@
       "descripcion": "Comaprtiendo evangelio de Jesuscristo y repartiendo tratados.",
       "localidad": "Centenario",
       "fecha": "2025-11-29",
-      "tipo": "evangelizar",
+      "tipo": "evangelio",
       "url": "https://youtu.be/05w4-_52c0s?si=b_PqYBym70fni0Vd"
     },
     {
@@ -79,7 +79,7 @@
       "descripcion": "Comaprtiendo evangelio de Jesuscristo y repartiendo tratados.",
       "localidad": "Centenario",
       "fecha": "2025-12-06",
-      "tipo": "evangelizar",
+      "tipo": "evangelio",
       "url": "https://youtu.be/Vn7B-w8ueow?si=By4bKUbztNZH93Pv"
     },
     {
@@ -97,7 +97,7 @@
       "descripcion": "Comaprtiendo evangelio de Jesuscristo y repartiendo tratados.",
       "localidad": "Centenario",
       "fecha": "2025-12-13",
-      "tipo": "evangelizar",
+      "tipo": "evangelio",
       "url": "https://youtu.be/0ql4LluWnAQ?si=CUhsQjbl6PmzTLci"
     },
     {
@@ -115,8 +115,17 @@
       "descripcion": "Comaprtiendo evangelio de Jesuscristo y repartiendo tratados.",
       "localidad": "Centenario",
       "fecha": "2025-12-20",
-      "tipo": "camapaña",
+      "tipo": "evangelio",
       "url": "https://youtu.be/Al4xkoc196Q"
+    },
+    {
+      "id": "10",
+      "titulo": "Evangelizando Plaza y Avenida",
+      "descripcion": "Comaprtiendo evangelio de Jesuscristo y repartiendo tratados.",
+      "localidad": "Centenario",
+      "fecha": "2025-12-27",
+      "tipo": "evangelio",
+      "url": "https://youtu.be/VWLHqpAWLOQ?si=lcnn1wepCRp703eQ"
     }
   ],
   "confesion": [
