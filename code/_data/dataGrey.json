@@ -135,6 +135,15 @@
       "fecha": "2026-01-02",
       "tipo": "evangelio",
       "url": "https://youtu.be/DGa2RAowXuQ?si=ZkLA9pqXvPpBwYT7"
+    },
+    {
+      "id": "12",
+      "titulo": "Evangelizando Plaza",
+      "descripcion": "Comaprtiendo evangelio de Jesuscristo y repartiendo tratados.",
+      "localidad": "Centenario",
+      "fecha": "2026-01-09",
+      "tipo": "evangelio",
+      "url": "https://youtu.be/9TiC-SzsQ4g"
     }
   ],
   "confesion": [
