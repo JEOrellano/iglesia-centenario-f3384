@@ -162,6 +162,15 @@
       "fecha": "2026-01-23",
       "tipo": "evangelio",
       "url": "https://youtu.be/Fopj0Im4sD8?si=uv_EPjo0OAjw4TyI"
+    },
+    {
+      "id": "15",
+      "titulo": "Campaña Evangelista Iglesia",
+      "descripcion": "Comaprtiendo evangelio de Jesuscristo, repartiendo tratados y promocionando campaña evangelista.",
+      "localidad": "Centenario",
+      "fecha": "2026-01-28",
+      "tipo": "camapaña",
+      "url": "https://youtu.be/OJQdoQgmidc?si=4r-3wJwuxNUXoR9-"
     }
   ],
   "confesion": [
