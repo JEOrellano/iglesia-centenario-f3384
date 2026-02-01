@@ -269,19 +269,55 @@
     {
       "id": 1,
       "nombre": "Rosana",
-      "testimonio": "Hola soy Rosana. ¡Dios te bendiga! 🙏🙏🙏🙏 Búsquele al Señor, ¡busque!. ✨✨✨✨ Él tiene una salida para tu vida. 💖💖💖💖 ¡No estás solo/a! Este es el mensaje que le dejo en Su nombre. ¡Amén! 🙌🙌🙌",
+      "testimonio": "¡Hola, soy Rosana! ¡Dios te bendiga! Búscale al Señor, pues Él tiene una salida para tu vida. ¡No estás solo! Como dice Su palabra: Clama a mí, y yo te responderé (Jeremías 33:3). ¡Amén! 🙌✨",
       "membresia": "visita denominacional"
     },
     {
       "id": 2,
-      "nombre": "Esteban Joselo Orellano",
-      "testimonio": "Agradecido con Cristo Jesus, esperando se cumplan sus promesas de vida eterna, corriendo la buena carrera de la fé en Jesus Cristo. Confesando a Jesus Cristo publicamente delante de los hombres.",
+      "nombre": "Esteban J. Orellano",
+      "testimonio": "Agradecido con Cristo, peleo la buena batalla de la fe y confieso Su nombre delante de los hombres. ¡Espero Su promesa de vida eterna! Corramos con paciencia la carrera que tenemos por delante. 🙌✨",
       "membresia": "miembro"
     },
     {
       "id": 3,
-      "nombre": "Ezequiel morel",
-      "testimonio": "Efesios 2-1 Y él os dio vida a vosotros, cuando estabais muertos en vuestros delitos y pecados...Efesios 2-1 Y él os dio vida a vosotros, cuando estabais muertos en vuestros delitos y pecados...",
+      "nombre": "Ezequiel Morel",
+      "testimonio": "Y él os dio vida a vosotros, cuando estabais muertos en vuestros delitos y pecados (Efesios 2:1). ¡Dios nos dio vida cuando no teníamos esperanza! Cree en Él y serás transformado. 🙏✨",
+      "membresia": "vsisita denominacional"
+    },
+    {
+      "id": 4,
+      "nombre": "Cesar A. Acuña",
+      "testimonio": "Jehová es mi pastor; nada me faltará. En lugares de delicados pastos me hará descansar (Salmo 23:1-2). ¡Confía en Su provisión, Él es fiel y cuida de ti en todo momento! 🙏✨",
+      "membresia": "Anciano Pastor"
+    },
+    {
+      "id": 5,
+      "nombre": "Eugenio",
+      "testimonio": "Como el ciervo brama por las corrientes de las aguas, así clama por ti, oh Dios, el alma mía. Mi alma tiene sed de Dios, del Dios vivo. ¡Búscale, solo Él sacia tu vida! 🙌✨",
+      "membresia": "vsisita denominacional"
+    },
+    {
+      "id": 6,
+      "nombre": "Gonzalo Calfini",
+      "testimonio": "Todo está cumplido, ¡Cristo viene! Los jóvenes se fatigan y se cansan, pero los que esperan a Jehová tendrán nuevas fuerzas; levantarán alas como las águilas (Isaías 40:31). ¡Prepárate! 🙌✨",
+      "membresia": "miembro"
+    },
+    {
+      "id": 7,
+      "nombre": "Matias Jaramillo",
+      "testimonio": "Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna (Juan 3:16). ¡Deja el mundo y ven a Cristo! 🙌✨",
+      "membresia": "vsisita denominacional Evangelista"
+    },
+    {
+      "id": 8,
+      "nombre": "Omar",
+      "testimonio": "El Señor nos llama en Juan a dejar las cosas del mundo. Si no lo dejamos, nos apartamos de Su amor. ¡Busquemos vivir para Él y no para lo terrenal! 🙏✨ Bendiciones.",
+      "membresia": "vsisita denominacional"
+    },
+    {
+      "id": 9,
+      "nombre": "Pully",
+      "testimonio": "Cuídense de los falsos profetas que vienen vestidos de ovejas, pero por dentro son lobos rapaces. Como dice Mateo 7:15, por sus frutos los conoceréis. ¡Manténganse alertas en la fe! 🙏✨",
       "membresia": "vsisita denominacional"
     }
   ],
