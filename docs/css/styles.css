@@ -185,35 +185,39 @@ svg {
 }
 
 #slide-2:checked ~ .slides {
-  transform: translateX(-11.1111%);
+  transform: translateX(-10%);
 }
 
 #slide-3:checked ~ .slides {
-  transform: translateX(-22.2222%);
+  transform: translateX(-20%);
 }
 
 #slide-4:checked ~ .slides {
-  transform: translateX(-33.3333%);
+  transform: translateX(-30%);
 }
 
 #slide-5:checked ~ .slides {
-  transform: translateX(-44.4444%);
+  transform: translateX(-40%);
 }
 
 #slide-6:checked ~ .slides {
-  transform: translateX(-55.5555%);
+  transform: translateX(-50%);
 }
 
 #slide-7:checked ~ .slides {
-  transform: translateX(-66.6666%);
+  transform: translateX(-60%);
 }
 
 #slide-8:checked ~ .slides {
-  transform: translateX(-77.7777%);
+  transform: translateX(-70%);
 }
 
 #slide-9:checked ~ .slides {
-  transform: translateX(-88.8888%);
+  transform: translateX(-80%);
+}
+
+#slide-10:checked ~ .slides {
+  transform: translateX(-90%);
 }
 
 #slide-1:checked ~ .slides-nav label#dot-1,
@@ -224,7 +228,8 @@ svg {
 #slide-6:checked ~ .slides-nav label#dot-6,
 #slide-7:checked ~ .slides-nav label#dot-7,
 #slide-8:checked ~ .slides-nav label#dot-8,
-#slide-9:checked ~ .slides-nav label#dot-9 {
+#slide-9:checked ~ .slides-nav label#dot-9,
+#slide-10:checked ~ .slides-nav label#dot-10 {
   background-color: var(--gray-dark-color);
 }
 
