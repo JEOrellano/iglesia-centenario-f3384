@@ -207,6 +207,15 @@
       "fecha": "2026-02-01",
       "tipo": "camapaña",
       "url": "https://youtu.be/DSh0mlPWvQ0?si=chMS5bfIrwXwY7_k"
+    },
+    {
+      "id": "20",
+      "titulo": "Evangelizando Plaza y Avenida",
+      "descripcion": "Compartiendo evangelio de Jesuscristo y repartiendo tratados.",
+      "localidad": "Centenario",
+      "fecha": "2026-02-13",
+      "tipo": "evangelio",
+      "url": "https://youtu.be/ANio43m1NEE?si=sS8apV6208jJJAR_"
     }
   ],
   "confesion": [
