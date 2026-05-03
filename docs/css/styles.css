@@ -109,48 +109,51 @@ svg {
     transform: translateX(0%);
   }
 
-  11.1111% {
-    transform: translateX(-11.1111%);
+  9.0909% {
+    transform: translateX(-9.0909%);
   }
 
-  22.2222% {
-    transform: translateX(-22.2222%);
+  18.1818% {
+    transform: translateX(-18.1818%);
   }
 
-  33.3333% {
-    transform: translateX(-33.3333%);
+  27.2727% {
+    transform: translateX(-27.2727%);
   }
 
-  44.4444% {
-    transform: translateX(-44.4444%);
+  36.3636% {
+    transform: translateX(-36.3636%);
   }
 
-  55.5555% {
-    transform: translateX(-55.5555%);
+  45.4545% {
+    transform: translateX(-45.4545%);
   }
 
-  66.6666% {
-    transform: translateX(-66.6666%);
+  54.5454% {
+    transform: translateX(-54.5454%);
   }
 
-  77.7777% {
-    transform: translateX(-77.7777%);
+  63.6363% {
+    transform: translateX(-63.6363%);
   }
 
-  88.8888% {
-    transform: translateX(-88.8888%);
+  72.7272% {
+    transform: translateX(-72.7272%);
   }
 
-  99.9999% {
-    transform: translateX(-99.9999%);
+  81.8181% {
+    transform: translateX(-81.8181%);
+  }
+
+  90.9090% {
+    transform: translateX(-90.909%);
   }
 }
 
 .carousel {
   margin: 2rem auto;
   padding: 2rem 0;
-  width: 70vw;
-  max-width: 1200px;
+  max-width: 50rem;
   text-align: center;
   overflow-x: hidden;
   background-color: var(--carousel-bg-color);
@@ -159,11 +162,15 @@ svg {
 .carousel .slides {
   padding-left: 0;
   /* 100% por cada slide */
-  width: 900%;
+  width: 1100%;
   display: flex;
   list-style: none;
   transition: transform 0.5s ease-in-out;
   animation: carousel-slide 12s ease-in-out 3s;
+}
+
+.slides > li {
+  max-width: 50rem;
 }
 
 .carousel input {
@@ -185,39 +192,43 @@ svg {
 }
 
 #slide-2:checked ~ .slides {
-  transform: translateX(-10%);
+  transform: translateX(-9.0909%);
 }
 
 #slide-3:checked ~ .slides {
-  transform: translateX(-20%);
+  transform: translateX(-18.1818%);
 }
 
 #slide-4:checked ~ .slides {
-  transform: translateX(-30%);
+  transform: translateX(-27.2727%);
 }
 
 #slide-5:checked ~ .slides {
-  transform: translateX(-40%);
+  transform: translateX(-36.3636%);
 }
 
 #slide-6:checked ~ .slides {
-  transform: translateX(-50%);
+  transform: translateX(-45.4545%);
 }
 
 #slide-7:checked ~ .slides {
-  transform: translateX(-60%);
+  transform: translateX(-54.5454%);
 }
 
 #slide-8:checked ~ .slides {
-  transform: translateX(-70%);
+  transform: translateX(-63.6363%);
 }
 
 #slide-9:checked ~ .slides {
-  transform: translateX(-80%);
+  transform: translateX(-72.7272%);
 }
 
 #slide-10:checked ~ .slides {
-  transform: translateX(-90%);
+  transform: translateX(-81.8181%);
+}
+
+#slide-11:checked ~ .slides {
+  transform: translateX(-90.909%);
 }
 
 #slide-1:checked ~ .slides-nav label#dot-1,
@@ -229,7 +240,8 @@ svg {
 #slide-7:checked ~ .slides-nav label#dot-7,
 #slide-8:checked ~ .slides-nav label#dot-8,
 #slide-9:checked ~ .slides-nav label#dot-9,
-#slide-10:checked ~ .slides-nav label#dot-10 {
+#slide-10:checked ~ .slides-nav label#dot-10,
+#slide-11:checked ~ .slides-nav label#dot-11 {
   background-color: var(--gray-dark-color);
 }
 
