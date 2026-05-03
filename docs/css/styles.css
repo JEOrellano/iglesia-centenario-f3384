@@ -153,7 +153,8 @@ svg {
 .carousel {
   margin: 2rem auto;
   padding: 2rem 0;
-  max-width: 50rem;
+  width: 50rem;
+  max-width: 80vw;
   text-align: center;
   overflow-x: hidden;
   background-color: var(--carousel-bg-color);
@@ -170,7 +171,8 @@ svg {
 }
 
 .slides > li {
-  max-width: 50rem;
+  width: 50rem;
+  max-width: 80vw;
 }
 
 .carousel input {
