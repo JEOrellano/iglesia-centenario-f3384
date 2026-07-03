@@ -99,9 +99,8 @@ footerFecha.textContent += new Date().getFullYear() + " IEADCR";
           console(err);
           let message =
             err.statusText || "Ocurrió un error al enviar, intenta nuevamente";
-          $response.querySelector(
-            "h3"
-          ).innerHTML = `Error ${err.status}: ${message}`;
+          $response.querySelector("h3").innerHTML =
+            `Error ${err.status}: ${message}`;
         })
         .finally(() => {
           $loader.classList.add("none");
@@ -120,3 +119,90 @@ if ("serviceWorker" in navigator) {
     .then((reg) => console.log("Registro de SW exitoso", reg))
     .catch((err) => console.warn("Error al tratar de registrar el sw", err));
 }
+
+/* ************ Podcast YouTube ************ */
+((d) => {
+  const container = d.getElementById("yt-player");
+
+  if (!container) return;
+
+  let player;
+  let timer;
+
+  const btn = d.getElementById("podcast-play");
+  const progress = d.getElementById("podcast-progress");
+  const current = d.getElementById("podcast-current");
+  const duration = d.getElementById("podcast-duration");
+
+  const formatTime = (sec) => {
+    sec = Math.floor(sec);
+
+    const m = Math.floor(sec / 60);
+    const s = sec % 60;
+
+    return `${m}:${String(s).padStart(2, "0")}`;
+  };
+
+  window.onYouTubeIframeAPIReady = () => {
+    player = new YT.Player("yt-player", {
+      width: 1,
+      height: 1,
+
+      videoId: container.dataset.video,
+
+      playerVars: {
+        controls: 0,
+        modestbranding: 1,
+        rel: 0,
+      },
+
+      events: {
+        onReady: () => {
+          duration.textContent = formatTime(player.getDuration());
+        },
+
+        onStateChange: (e) => {
+          if (e.data === YT.PlayerState.PLAYING) {
+            btn.textContent = "⏸";
+
+            clearInterval(timer);
+
+            timer = setInterval(() => {
+              const now = player.getCurrentTime();
+              const total = player.getDuration();
+
+              current.textContent = formatTime(now);
+
+              progress.value = total ? (now / total) * 100 : 0;
+            }, 500);
+          }
+
+          if (
+            e.data === YT.PlayerState.PAUSED ||
+            e.data === YT.PlayerState.ENDED
+          ) {
+            btn.textContent = "▶";
+
+            clearInterval(timer);
+          }
+        },
+      },
+    });
+  };
+
+  btn.addEventListener("click", () => {
+    const state = player.getPlayerState();
+
+    if (state === YT.PlayerState.PLAYING) {
+      player.pauseVideo();
+    } else {
+      player.playVideo();
+    }
+  });
+
+  progress.addEventListener("input", () => {
+    const total = player.getDuration();
+
+    player.seekTo((total * progress.value) / 100, true);
+  });
+})(document);
