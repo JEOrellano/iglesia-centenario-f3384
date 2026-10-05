@@ -109,44 +109,56 @@ svg {
     transform: translateX(0%);
   }
 
-  9.0909% {
-    transform: translateX(-9.0909%);
+  7.1428% {
+    transform: translateX(-7.1428%);
   }
 
-  18.1818% {
-    transform: translateX(-18.1818%);
+  14.2857% {
+    transform: translateX(-14.2857%);
   }
 
-  27.2727% {
-    transform: translateX(-27.2727%);
+  21.4257% {
+    transform: translateX(-21.4257%);
   }
 
-  36.3636% {
-    transform: translateX(-36.3636%);
+  28.5714% {
+    transform: translateX(-28.5714%);
   }
 
-  45.4545% {
-    transform: translateX(-45.4545%);
+  35.7142% {
+    transform: translateX(-35.7142%);
   }
 
-  54.5454% {
-    transform: translateX(-54.5454%);
+  42.8571% {
+    transform: translateX(-42.8571%);
   }
 
-  63.6363% {
-    transform: translateX(-63.6363%);
+  50% {
+    transform: translateX(-50%);
   }
 
-  72.7272% {
-    transform: translateX(-72.7272%);
+  57.1428% {
+    transform: translateX(-57.1428%);
   }
 
-  81.8181% {
-    transform: translateX(-81.8181%);
+  64.2857% {
+    transform: translateX(-64.2857%);
   }
 
-  90.9090% {
-    transform: translateX(-90.909%);
+  71.4285% {
+    transform: translateX(-71.4285%);
+  }
+
+  78.5714% {
+    transform: translateX(-78.5714%);
+  }
+
+  85.7142% {
+    transform: translateX(-85.7142%);
+  }
+
+  92.8571% {
+    transform: translateX(-92.8571%);
   }
 }
 
@@ -163,7 +175,7 @@ svg {
 .carousel .slides {
   padding-left: 0;
   /* 100% por cada slide */
-  width: 1100%;
+  width: 1400%;
   display: flex;
   list-style: none;
   transition: transform 0.5s ease-in-out;
@@ -194,43 +206,55 @@ svg {
 }
 
 #slide-2:checked ~ .slides {
-  transform: translateX(-9.0909%);
+  transform: translateX(-7.1428%);
 }
 
 #slide-3:checked ~ .slides {
-  transform: translateX(-18.1818%);
+  transform: translateX(-14.2857%);
 }
 
 #slide-4:checked ~ .slides {
-  transform: translateX(-27.2727%);
+  transform: translateX(-21.4257%);
 }
 
 #slide-5:checked ~ .slides {
-  transform: translateX(-36.3636%);
+  transform: translateX(-28.5714%);
 }
 
 #slide-6:checked ~ .slides {
-  transform: translateX(-45.4545%);
+  transform: translateX(-35.7142%);
 }
 
 #slide-7:checked ~ .slides {
-  transform: translateX(-54.5454%);
+  transform: translateX(-42.8571%);
 }
 
 #slide-8:checked ~ .slides {
-  transform: translateX(-63.6363%);
+  transform: translateX(-50%);
 }
 
 #slide-9:checked ~ .slides {
-  transform: translateX(-72.7272%);
+  transform: translateX(-57.1428%);
 }
 
 #slide-10:checked ~ .slides {
-  transform: translateX(-81.8181%);
+  transform: translateX(-64.2857%);
 }
 
 #slide-11:checked ~ .slides {
-  transform: translateX(-90.909%);
+  transform: translateX(-71.4285%);
+}
+
+#slide-12:checked ~ .slides {
+  transform: translateX(-78.5714%);
+}
+
+#slide-13:checked ~ .slides {
+  transform: translateX(-85.7142%);
+}
+
+#slide-14:checked ~ .slides {
+  transform: translateX(-92.8571%);
 }
 
 #slide-1:checked ~ .slides-nav label#dot-1,
@@ -243,7 +267,10 @@ svg {
 #slide-8:checked ~ .slides-nav label#dot-8,
 #slide-9:checked ~ .slides-nav label#dot-9,
 #slide-10:checked ~ .slides-nav label#dot-10,
-#slide-11:checked ~ .slides-nav label#dot-11 {
+#slide-11:checked ~ .slides-nav label#dot-11,
+#slide-12:checked ~ .slides-nav label#dot-12,
+#slide-13:checked ~ .slides-nav label#dot-13,
+#slide-14:checked ~ .slides-nav label#dot-14 {
   background-color: var(--gray-dark-color);
 }
 
